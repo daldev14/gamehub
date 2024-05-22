@@ -1,18 +1,90 @@
 ---
 import Logo from "./Logo.astro";
+import IconMenu from "./icons/Menu.astro";
+import IconClose from "./icons/Close.astro";
+
+const LINKS = [
+  { title: "Productos", href: "/products" },
+  { title: "Quienes somos" },
+  { title: "Programa de fidelidad" },
+  { title: "Nuestras tiendas" },
+];
 ---
 
-<header class="bg-white px-10 py-6">
+<header class="realtive flex bg-white p-4 md:px-10 md:py-6">
   <div
-    class="w-full mx-auto container flex justify-between items-center flex-col md:flex-row"
+    class="w-full h-full mx-auto container flex justify-between items-center"
   >
     <Logo />
-    <div>
+    <div class="">
       <a
         href="/login"
-        class="bg-transparent border border-indigo-700 text-indigo-700 px-10 py-3 font-medium rounded transition-colors duration-300 hover:bg-indigo-700 hover:text-white"
+        class="bg-transparent border border-indigo-700 text-indigo-700 px-10 py-3 font-medium rounded transition-colors duration-300 hover:bg-indigo-700 hover:text-white hidden md:inline-flex"
         >Login</a
       >
     </div>
+
+    <button
+      class="p-1 border border-transparent rounded transition-all duration-300 md:hidden hover:border-indigo-700 active:bg-indigo-50"
+      id="menu"
+    >
+      <span class="sr-only">menu</span>
+      <IconMenu class="size-6 text-indigo-700" />
+    </button>
+  </div>
+
+  <div
+    class="fixed right-0 top-0 bottom-0 w-0 opacity-0 invisible bg-white z-10 transition-all origin-right duration-300 ease-in md:hidden"
+    id="menuCanvas"
+  >
+    <div class="flex flex-col items-center p-4">
+      <div class="w-full flex justify-end">
+        <button
+          class="p-1 border border-transparent rounded transition-all duration-300 hover:border-indigo-700 active:bg-indigo-50"
+          id="menu"
+        >
+          <span class="sr-only">menu</span>
+          <IconClose class="size-6 text-indigo-700" />
+        </button>
+      </div>
+      <nav class="flex flex-col gap-4">
+        <Logo />
+
+        <ul class="flex flex-col gap-4 items-center">
+          {
+            LINKS.map((link) => (
+              <li class="text-gray-600 font-medium transition-colors duration-300 hover:text-indigo-700">
+                <a href={`${link.href ? link.href : "/"}`}>{link.title}</a>
+              </li>
+            ))
+          }
+        </ul>
+
+        <a
+          href="/login"
+          class="text-center bg-transparent border border-indigo-700 text-indigo-700 px-10 py-3 font-medium rounded transition-colors duration-300 hover:bg-indigo-700 hover:text-white"
+          >Login</a
+        >
+      </nav>
+    </div>
   </div>
 </header>
+
+<style>
+  .cvisible {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+  }
+</style>
+
+<script>
+  const $btnMenu = document.querySelectorAll("#menu");
+  const $menuCanvas = document.querySelector("#menuCanvas");
+
+  $btnMenu.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      $menuCanvas?.classList.toggle("cvisible");
+    });
+  });
+</script>
