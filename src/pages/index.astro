@@ -14,8 +14,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
         <div class="grid gap-4 customContainer">
           {
             data.products
-              .filter((product) => product.categories.includes("starwars"))
-
+              .filter((product) => product.category === "starwars")
               .map((product) => {
                 return <Card {...product} />;
               })
@@ -27,7 +26,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
         <div class="grid gap-4 customContainer">
           {
             data.products
-              .filter((product) => product.categories.includes("consolas"))
+              .filter((product) => product.category === "consolas")
               .slice(0, -2)
               .map((product) => {
                 return <Card {...product} />;
@@ -40,7 +39,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
         <div class="grid gap-4 customContainer">
           {
             data.products
-              .filter((product) => product.categories.includes("diversos"))
+              .filter((product) => product.category === "diversos")
               .map((product) => {
                 return <Card {...product} />;
               })

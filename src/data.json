@@ -6,7 +6,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/control-nintendo.jpg",
       "price": "60",
-      "categories": ["consolas", "nintendo"]
+      "category": "consolas",
+      "tags": ["consolas", "nintendo"]
     },
 
     {
@@ -15,7 +16,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/gameboy.jpg",
       "price": "60",
-      "categories": ["consolas", "nintendo"]
+      "category": "consolas",
+      "tags": ["consolas", "nintendo"]
     },
     {
       "slug": "console-nes",
@@ -23,7 +25,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/nes.jpg",
       "price": "60",
-      "categories": ["consolas", "nintendo"]
+      "category": "consolas",
+      "tags": ["consolas", "nintendo"]
     },
     {
       "slug": "playstation",
@@ -31,7 +34,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/playstation.jpg",
       "price": "60",
-      "categories": ["consolas", "playstation"]
+      "category": "consolas",
+      "tags": ["consolas", "playstation"]
     },
     {
       "slug": "console-xbox",
@@ -39,7 +43,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/xbox.jpg",
       "price": "60",
-      "categories": ["consolas", "xbox"]
+      "category": "consolas",
+      "tags": ["consolas", "xbox"]
     },
 
     {
@@ -48,7 +53,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/atari.jpg",
       "price": "60",
-      "categories": ["consolas", "atari"]
+      "category": "consolas",
+      "tags": ["consolas", "atari"]
     },
     {
       "slug": "controles-nintendo",
@@ -56,7 +62,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/controles.jpg",
       "price": "60",
-      "categories": ["consolas", "nintendo"]
+      "category": "consolas",
+      "tags": ["consolas", "nintendo"]
     },
 
     {
@@ -65,7 +72,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/consolas/control-xbox.jpg",
       "price": "60",
-      "categories": ["consolas", "xbox"]
+      "category": "consolas",
+      "tags": ["consolas", "xbox"]
     },
     {
       "slug": "pikachu",
@@ -73,7 +81,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/pikachu.jpg",
       "price": "60",
-      "categories": ["peluche", "nintendo", "diversos"]
+      "category": "diversos",
+      "tags": ["peluche", "nintendo", "diversos"]
     },
     {
       "slug": "reloj",
@@ -81,7 +90,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/reloj.jpg",
       "price": "60",
-      "categories": ["reloj", "diversos"]
+      "category": "diversos",
+      "tags": ["reloj", "diversos"]
     },
     {
       "slug": "sonic",
@@ -89,7 +99,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/sonic.jpg",
       "price": "60",
-      "categories": ["diversos", "peluche", "sega"]
+      "category": "diversos",
+      "tags": ["diversos", "peluche", "sega"]
     },
     {
       "slug": "vr",
@@ -97,7 +108,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/diversos/vr.jpg",
       "price": "60",
-      "categories": ["vr", "tecnologia", "diversos"]
+      "category": "diversos",
+      "tags": ["vr", "tecnologia", "diversos"]
     },
     {
       "slug": "baby-yoda",
@@ -105,7 +117,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/baby-yoda.jpg",
       "price": "60",
-      "categories": ["starwars"]
+      "category": "starwars",
+      "tags": ["starwars"]
     },
     {
       "slug": "lego-starwars",
@@ -113,7 +126,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/lego.jpg",
       "price": "60",
-      "categories": ["starwars", "lego"]
+      "category": "starwars",
+      "tags": ["starwars", "lego"]
     },
     {
       "slug": "sith-starwars",
@@ -121,7 +135,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/sith.jpg",
       "price": "60",
-      "categories": ["starwars"]
+      "category": "starwars",
+      "tags": ["starwars"]
     },
     {
       "slug": "stormtrooper-starwars",
@@ -129,7 +144,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/stormtrooper.jpg",
       "price": "60",
-      "categories": ["starwars"]
+      "category": "starwars",
+      "tags": ["starwars"]
     },
     {
       "slug": "stormtrooper-tasa-starwars",
@@ -137,7 +153,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/stormtrooper-tasa.jpg",
       "price": "60",
-      "categories": ["starwars"]
+      "category": "starwars",
+      "tags": ["starwars"]
     },
     {
       "slug": "yoda-starwars",
@@ -145,7 +162,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
       "background_image": "/images/starwars/yoda.jpg",
       "price": "60",
-      "categories": ["starwars"]
+      "category": "starwars",
+      "tags": ["starwars"]
     }
   ]
 }

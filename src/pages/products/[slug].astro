@@ -8,17 +8,16 @@ export async function getStaticPaths() {
   const pages = data.products;
 
   return pages.map((page) => {
-    const { slug, name, description, background_image, price, categories } =
-      page;
+    const { slug, name, description, background_image, price, category } = page;
 
     return {
       params: { slug },
-      props: { name, description, background_image, price, categories },
+      props: { name, description, background_image, price, category },
     };
   });
 }
 
-const { name, description, background_image, price, categories } = Astro.props;
+const { name, description, background_image, price, category } = Astro.props;
 ---
 
 <Layout title="GameHub - Product">
@@ -55,7 +54,7 @@ const { name, description, background_image, price, categories } = Astro.props;
       <div class="grid gap-4 customContainer">
         {
           data.products
-            .filter((product) => product.categories.includes("starwars"))
+            .filter((product) => product.tags.includes(category))
             .map((product) => {
               return <Card {...product} />;
             })
