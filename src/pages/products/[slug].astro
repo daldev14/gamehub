@@ -1,8 +1,8 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import data from "@/data.json";
-import SectionContainer from "@/components/SectionContainer.astro";
 import Card from "@/components/Card.astro";
+import data from "@/data.json";
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
 
 export async function getStaticPaths() {
   const pages = data.products;
@@ -45,7 +45,7 @@ const { name, description, background_image, price, categories } = Astro.props;
     <SectionContainer
       className="py-16 md:py-24 px-4"
       title="Productos similares"
-      slug="/"
+      slug="/products"
       withHeader
     >
       <div class="grid gap-4 customContainer">

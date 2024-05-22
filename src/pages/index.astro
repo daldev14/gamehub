@@ -1,17 +1,16 @@
 ---
-import SectionContainer from "@/components/SectionContainer.astro";
-import Layout from "@/layouts/Layout.astro";
-import data from "@/data.json";
 import Card from "@/components/Card.astro";
+import data from "@/data.json";
 import Hero from "@/components/Hero.astro";
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
 ---
 
 <Layout title="Welcome to GameHub.">
   <main>
     <Hero />
     <div class="px-4 space-y-24 py-16 md:py-24">
-      <!-- starwars -->
-      <SectionContainer title="Star Wars" slug="/" withHeader>
+      <SectionContainer title="Star Wars" slug="/products" withHeader>
         <div class="grid gap-4 customContainer">
           {
             data.products
@@ -24,8 +23,7 @@ import Hero from "@/components/Hero.astro";
         </div>
       </SectionContainer>
 
-      <!-- consolas -->
-      <SectionContainer title="Consolas" slug="/" withHeader>
+      <SectionContainer title="Consolas" slug="/products" withHeader>
         <div class="grid gap-4 customContainer">
           {
             data.products
@@ -38,8 +36,7 @@ import Hero from "@/components/Hero.astro";
         </div>
       </SectionContainer>
 
-      <!-- diversos -->
-      <SectionContainer title="Más" slug="/" withHeader>
+      <SectionContainer title="Más" slug="/products" withHeader>
         <div class="grid gap-4 customContainer">
           {
             data.products
