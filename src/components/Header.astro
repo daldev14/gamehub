@@ -1,7 +1,8 @@
 ---
-import Logo from "./Logo.astro";
-import IconMenu from "./icons/Menu.astro";
 import IconClose from "./icons/Close.astro";
+import IconMenu from "./icons/Menu.astro";
+import Logo from "./Logo.astro";
+import Search from "./Search.astro";
 
 const LINKS = [
   { title: "Productos", href: "/products" },
@@ -16,7 +17,10 @@ const LINKS = [
     class="w-full h-full mx-auto container flex justify-between items-center"
   >
     <Logo />
-    <div class="">
+
+    <Search className="hidden md:block" />
+
+    <div>
       <a
         href="/login"
         class="bg-transparent border border-indigo-700 text-indigo-700 px-10 py-3 font-medium rounded transition-colors duration-300 hover:bg-indigo-700 hover:text-white hidden md:inline-flex"
@@ -49,6 +53,8 @@ const LINKS = [
       </div>
       <nav class="flex flex-col gap-4">
         <Logo />
+
+        <Search />
 
         <ul class="flex flex-col gap-4 items-center">
           {
