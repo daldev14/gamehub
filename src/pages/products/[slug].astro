@@ -24,8 +24,10 @@ const { name, description, background_image, price, categories } = Astro.props;
 <Layout title="GameHub - Product">
   <main>
     <SectionContainer>
-      <div class="flex flex-col md:flex-row md:pt-10">
-        <figure class="rounded overflow-hidden w-[1300px] h-[450px] shadow">
+      <div class="flex flex-col justify-center md:flex-row md:pt-10">
+        <figure
+          class="rounded overflow-hidden w-full shadow md:w-[400px] lg:w-[1300px] md:h-[450px]"
+        >
           <img
             src={background_image}
             alt={name}
@@ -37,7 +39,9 @@ const { name, description, background_image, price, categories } = Astro.props;
           <p class="font-semibold md:text-xl">
             $ {price}.00
           </p>
-          <p class="w-full text-pretty md:w-[700px]">{description}</p>
+          <p class="w-full text-pretty md:w-[300px] lg:w-[700px]">
+            {description}
+          </p>
         </div>
       </div>
     </SectionContainer>
