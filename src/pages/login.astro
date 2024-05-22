@@ -1,19 +1,13 @@
 ---
-import SectionContainer from "@/components/SectionContainer.astro";
 import Layout from "@/layouts/Layout.astro";
-import { Image } from "astro:assets";
-import ImageGame from "../../public/images/game.webp";
 ---
 
-<!-- py-16 md:py-24 -->
 <Layout title="GameHub - Login">
   <main class="grid">
     <section class="flex flex-col md:flex-row overflow-hidden">
       <div class="w-full md:w-[55%] h-full">
-        <Image
-          src={ImageGame}
-          width={1024}
-          height={990}
+        <img
+          src="./images/game.webp"
           alt={"images"}
           class="object-cover object-center h-full w-full shadow-lg"
         />
