@@ -1,0 +1,29 @@
+---
+import IconArrowRight from "@/components/icons/ArrowRight.astro";
+
+interface Props {
+  title?: string;
+  slug?: string;
+  className?: string;
+  withHeader?: boolean;
+}
+
+const { title, slug, className, withHeader = false } = Astro.props;
+---
+
+<section class={`${className} scroll-m-20 w-full mx-auto container`}>
+  {
+    withHeader && (
+      <div class="flex justify-between items-center mb-3">
+        <h2 class="font-bold text-lg md:text-2xl text-black/70">{title}</h2>
+        <a
+          href={slug}
+          class="inline-flex items-center gap-1 text-indigo-700 font-semibold transition-color duration-300 hover:text-indigo-500"
+        >
+          Ver todo <IconArrowRight class="size-5" />
+        </a>
+      </div>
+    )
+  }
+  <slot />
+</section>

@@ -1,0 +1,55 @@
+---
+import SectionContainer from "@/components/SectionContainer.astro";
+import Layout from "@/layouts/Layout.astro";
+import data from "@/data.json";
+import Card from "@/components/Card.astro";
+import Hero from "@/components/Hero.astro";
+---
+
+<Layout title="Welcome to GameHub.">
+  <main>
+    <Hero />
+    <div class="px-4 space-y-24 py-16 md:py-24">
+      <!-- starwars -->
+      <SectionContainer title="Star Wars" slug="/" withHeader>
+        <div class="grid gap-4 customContainer">
+          {
+            data.products
+              .filter((product) => product.categories.includes("starwars"))
+
+              .map((product) => {
+                return <Card {...product} />;
+              })
+          }
+        </div>
+      </SectionContainer>
+
+      <!-- consolas -->
+      <SectionContainer title="Consolas" slug="/" withHeader>
+        <div class="grid gap-4 customContainer">
+          {
+            data.products
+              .filter((product) => product.categories.includes("consolas"))
+              .slice(0, -2)
+              .map((product) => {
+                return <Card {...product} />;
+              })
+          }
+        </div>
+      </SectionContainer>
+
+      <!-- diversos -->
+      <SectionContainer title="Más" slug="/" withHeader>
+        <div class="grid gap-4 customContainer">
+          {
+            data.products
+              .filter((product) => product.categories.includes("diversos"))
+              .map((product) => {
+                return <Card {...product} />;
+              })
+          }
+        </div>
+      </SectionContainer>
+    </div>
+  </main>
+</Layout>

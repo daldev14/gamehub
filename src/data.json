@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "slug": "control-nintendo",
+      "name": "Control Nintendo",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/control-nintendo.jpg",
+      "price": "60",
+      "categories": ["consolas", "nintendo"]
+    },
+
+    {
+      "slug": "console-gameboy",
+      "name": "Gameboy",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/gameboy.jpg",
+      "price": "60",
+      "categories": ["consolas", "nintendo"]
+    },
+    {
+      "slug": "console-nes",
+      "name": "Nes",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/nes.jpg",
+      "price": "60",
+      "categories": ["consolas", "nintendo"]
+    },
+    {
+      "slug": "playstation",
+      "name": "PlayStation",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/playstation.jpg",
+      "price": "60",
+      "categories": ["consolas", "playstation"]
+    },
+    {
+      "slug": "console-xbox",
+      "name": "Console Xbox",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/xbox.jpg",
+      "price": "60",
+      "categories": ["consolas", "xbox"]
+    },
+
+    {
+      "slug": "console-atari",
+      "name": "Atari",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/atari.jpg",
+      "price": "60",
+      "categories": ["consolas", "atari"]
+    },
+    {
+      "slug": "controles-nintendo",
+      "name": "Joy Con",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/controles.jpg",
+      "price": "60",
+      "categories": ["consolas", "nintendo"]
+    },
+
+    {
+      "slug": "controle-xbox",
+      "name": "Control Xbox",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/consolas/control-xbox.jpg",
+      "price": "60",
+      "categories": ["consolas", "xbox"]
+    },
+    {
+      "slug": "pikachu",
+      "name": "Pikachu",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/pikachu.jpg",
+      "price": "60",
+      "categories": ["peluche", "nintendo", "diversos"]
+    },
+    {
+      "slug": "reloj",
+      "name": "Reloj",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/reloj.jpg",
+      "price": "60",
+      "categories": ["reloj", "diversos"]
+    },
+    {
+      "slug": "sonic",
+      "name": "Sonic",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/sonic.jpg",
+      "price": "60",
+      "categories": ["diversos", "peluche", "sega"]
+    },
+    {
+      "slug": "vr",
+      "name": "VR",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/diversos/vr.jpg",
+      "price": "60",
+      "categories": ["vr", "tecnologia", "diversos"]
+    },
+    {
+      "slug": "baby-yoda",
+      "name": "Baby Yoda",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/baby-yoda.jpg",
+      "price": "60",
+      "categories": ["starwars"]
+    },
+    {
+      "slug": "lego-starwars",
+      "name": "Lego Star Wars",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/lego.jpg",
+      "price": "60",
+      "categories": ["starwars", "lego"]
+    },
+    {
+      "slug": "sith-starwars",
+      "name": "Sith Star Wars",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/sith.jpg",
+      "price": "60",
+      "categories": ["starwars"]
+    },
+    {
+      "slug": "stormtrooper-starwars",
+      "name": "Stormtrooper",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/stormtrooper.jpg",
+      "price": "60",
+      "categories": ["starwars"]
+    },
+    {
+      "slug": "stormtrooper-tasa-starwars",
+      "name": "Tasa de Stormtrooper",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/stormtrooper-tasa.jpg",
+      "price": "60",
+      "categories": ["starwars"]
+    },
+    {
+      "slug": "yoda-starwars",
+      "name": "Yoda",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur assumenda officia aliquam illo at explicabo dolor id molestias vero esse blanditiis dignissimos quia, animi veniam obcaecati quisquam tempora nisi?",
+      "background_image": "/images/starwars/yoda.jpg",
+      "price": "60",
+      "categories": ["starwars"]
+    }
+  ]
+}

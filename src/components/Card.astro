@@ -1,0 +1,35 @@
+---
+interface Props {
+  slug: string;
+  name: string;
+  price: string;
+  background_image: string;
+}
+
+const { slug, name, price, background_image } = Astro.props;
+---
+
+<a href={`/products/${slug}`} class="group h-full">
+  <article class="flex flex-col h-full">
+    <header>
+      <figure class="rounded overflow-hidden shadow">
+        <img
+          src={background_image}
+          alt={name}
+          class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+      </figure>
+    </header>
+    <footer class="h-full">
+      <h3 class="font-semibold text-lg">{name}</h3>
+      <p>
+        $ {price}.00
+      </p>
+      <span
+        class="text-indigo-700 font-semibold transition-color duration-300 hover:text-indigo-500"
+      >
+        Ver producto
+      </span>
+    </footer>
+  </article>
+</a>
